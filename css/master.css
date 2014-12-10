@@ -1,7 +1,40 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .hidden {
     display: none;
 }
 
-.thumbnail {
+.hide_large {
+    visibility: hidden;
+}
+
+.nailthumb-container {
+    visibility: visible;
     display: inline-block;
+    margin: 0;
+}
+
+.container {
+    width: 758px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px auto;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+}
+
+.nav_item {
+    display: inline-block;
+    font: 14px;
+    margin: 5px 10px;
 }
