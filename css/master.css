@@ -3,6 +3,10 @@ a {
     color: black;
 }
 
+li {
+    display: inline-block;
+}
+
 .hidden {
     display: none;
 }
@@ -25,7 +29,7 @@ a {
 .header {
     text-align: center;
     text-transform: uppercase;
-    margin: 40px auto;
+    margin: 20px auto 50px auto;
 }
 
 .nav {
@@ -34,7 +38,17 @@ a {
 }
 
 .nav_item {
-    display: inline-block;
     font: 14px;
     margin: 5px 10px;
+}
+
+.social_links {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
 }
