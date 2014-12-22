@@ -654,7 +654,7 @@
         imageCustomFinder: null/*function(element,options){
             return null;
         }*/,
-        imageClass:'nailthumb-image',
+        imageClass:'nailthumb_image',
         afterReplace: null,
         afterAppear: null,
         replaceAnimation: 'fade',

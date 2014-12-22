@@ -24,7 +24,7 @@
   position: relative;
   text-align: left;
 }
-.nailthumb-container img.nailthumb-image {
+.nailthumb-container img.nailthumb_image {
   margin: 0px;
   padding: 0px;
   max-width: none;

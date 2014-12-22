@@ -18,11 +18,11 @@ li {
 .nailthumb-container {
     visibility: visible;
     display: inline-block;
-    margin: 0;
+    margin: 0 15px;
 }
 
 .container {
-    width: 758px;
+    width: 848px;
     margin: 0 auto;
 }
 
@@ -51,4 +51,19 @@ li {
 .icon {
     width: 30px;
     height: 30px;
+}
+
+.nailthumb_image:hover {
+    opacity: 0.75;
+}
+
+.nav_item:hover {
+    opacity: 0.5;
+}
+
+.image_container {
+    text-align: center;
+    width: 280px;
+    display: inline-block;
+    margin-bottom: 30px;
 }
