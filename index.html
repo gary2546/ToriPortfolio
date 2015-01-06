@@ -4,34 +4,23 @@
         <title>Victoria Eng Gallery</title>
 
         <script type="text/javascript" src="js/jquery-1.4.min.js"></script>
-        <script type="text/javascript" src="plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-        <script type="text/javascript" src="plugins/nailthumb/jquery.nailthumb.1.1.min.js"></script>
-        <script type="text/javascript" src="js/gallery.js"></script>
+        <script type="text/javascript" src="js/master.js"></script>
 
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="plugins/nailthumb/jquery.nailthumb.1.1.min.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
+
+        <script type="text/javascript">
+        $(function() {
+            $(".header").load("header.html");
+        });
+        </script>
     </head>
 
     <body>
         <div class="container">
-            <div class="social">
-                <ul class="social_links">
-                    <li><a target="_blank" href="https://www.facebook.com/tori.eng.1"><img class="icon" src="images/icons/facebook.png" /></a></li>
-                    <li><a target="_blank" href="http://engvictoria.tumblr.com/"><img class="icon" src="images/icons/tumblr.png" /></a></li>
-                    <li><a target="_blank" href="https://www.behance.net/engvictoria"><img class="icon" src="images/icons/behance.png" /></a></li>
-                    <li><a target="_blank" href="http://instagram.com/torigrams/"><img class="icon" src="images/icons/instagram.png" /></a></li>
-                </ul>
-            </div>
-            <div class="header">
-                <h1>Victoria Eng</h1>
-                <ul class="nav">
-                    <li class="nav_item"><a href="index.html">Home</a></li>
-                    <li class="nav_item"><a href="about.html">About Me</a></li>
-                    <li class="nav_item"><a href="gallery.html">Gallery</a></li>
-                    <li class="nav_item"><a href="prints.html">Prints</a></li>
-                </ul>
-            </div>
+            <div class="header"></div>
 
             <div class="info">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis vulputate ante eget viverra. Integer posuere varius metus. Donec a felis sapien. Curabitur consectetur convallis interdum. Sed pulvinar enim nec consectetur tristique. Nunc euismod sapien eu sodales placerat. Sed eu aliquet nibh. Fusce orci quam, efficitur nec volutpat a, consequat quis erat. Vivamus convallis gravida commodo. Morbi ac leo quam. Nam et tincidunt nisi, eget dignissim orci. Suspendisse et tempor nisi. Pellentesque erat mauris, facilisis in fermentum et, cursus ac magna. Pellentesque tempor tristique aliquam. Sed sed porttitor massa. Nunc quis eros lobortis enim tempor placerat eu id odio.</p>

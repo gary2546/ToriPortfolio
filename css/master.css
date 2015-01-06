@@ -1,3 +1,14 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+h1 {
+    margin: 15px 0;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -11,49 +22,51 @@ li {
     display: none;
 }
 
-.hide_large {
-    visibility: hidden;
-}
-
-.nailthumb-container {
-    visibility: visible;
-    display: inline-block;
-    margin: 0 15px;
-}
-
 .container {
     width: 848px;
     margin: 0 auto;
 }
 
 .header {
-    text-align: center;
     text-transform: uppercase;
-    margin: 20px auto 50px auto;
+    margin: 10px auto;
+    padding-bottom: 100px;
 }
 
 .nav {
     list-style: none;
     padding: 0;
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+    float: right;
 }
 
 .nav_item {
-    font: 14px;
-    margin: 5px 10px;
+    font-size: 18px;
+    margin: 0 10px 5px 10px;
 }
 
-.social_links {
-    list-style: none;
-    padding: 0;
-    text-align: right;
+.logo {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    float: left;
+}
+
+.social {
+    padding-left: 10px;
+    position: relative;
+    top: 3px;
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
+    vertical-align: bottom;
 }
 
-.nailthumb_image:hover {
+.thumbnail:hover {
     opacity: 0.75;
 }
 
@@ -62,8 +75,22 @@ li {
 }
 
 .image_container {
-    text-align: center;
-    width: 280px;
+    width: 250px;
     display: inline-block;
-    margin-bottom: 30px;
+    margin: 0 15px 30px 15px;
+    text-align: center;
+}
+
+.image_container p {
+    text-align: left;
+}
+
+.gallery,
+.info {
+    clear: both;
+}
+
+.thumbnail {
+    width: 250px;
+    height: 250px;
 }

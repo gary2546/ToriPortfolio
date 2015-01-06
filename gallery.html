@@ -5,93 +5,121 @@
 
         <script type="text/javascript" src="js/jquery-1.4.min.js"></script>
         <script type="text/javascript" src="plugins/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-        <script type="text/javascript" src="plugins/nailthumb/jquery.nailthumb.1.1.min.js"></script>
-        <script type="text/javascript" src="js/gallery.js"></script>
+        <script type="text/javascript" src="js/master.js"></script>
 
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="plugins/nailthumb/jquery.nailthumb.1.1.min.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
+
+        <script type="text/javascript">
+        $(function() {
+            $(".header").load("header.html");
+        });
+        </script>
     </head>
 
     <body>
         <div class="container">
-            <div class="social">
-                <ul class="social_links">
-                    <li><a target="_blank" href="https://www.facebook.com/tori.eng.1"><img class="icon" src="images/icons/facebook.png" /></a></li>
-                    <li><a target="_blank" href="http://engvictoria.tumblr.com/"><img class="icon" src="images/icons/tumblr.png" /></a></li>
-                    <li><a target="_blank" href="https://www.behance.net/engvictoria"><img class="icon" src="images/icons/behance.png" /></a></li>
-                    <li><a target="_blank" href="http://instagram.com/torigrams/"><img class="icon" src="images/icons/instagram.png" /></a></li>
-                </ul>
-            </div>
-            <div class="header">
-                <h1>Victoria Eng</h1>
-                <ul class="nav">
-                    <li class="nav_item"><a href="index.html">Home</a></li>
-                    <li class="nav_item"><a href="about.html">About Me</a></li>
-                    <li class="nav_item"><a href="gallery.html">Gallery</a></li>
-                    <li class="nav_item"><a href="prints.html">Prints</a></li>
-                </ul>
-            </div>
+            <div class="header"></div>
 
             <div class="gallery">
                 <div class="image_container">
-                    <a class="grouped_elements hide_large" title="Jun's room" rel="jun_room" href="images/jun_room/jun_room.jpg">
-                        <div class="thumbnail"><img src="images/jun_room/jun_room_closeup_2.png" alt="" /></div>
+                    <a class="grouped_elements" title="Ghost dogs" rel="ghost_dogs" href="images/ghost_dogs/ghost_dogs.jpg">
+                        <img class="thumbnail" src="images/ghost_dogs/ghost_dogs_thumbnail.jpg" alt="" />
                     </a>
-                    <p>Jun's room</p>
-                    <a class="grouped_elements hidden" title="closeup 1/3" rel="jun_room" href="images/jun_room/jun_room_closeup_1.png">
-                        <div class="thumbnail"><img src="images/jun_room/jun_room_closeup_1.png" alt="" /></div>
+                    <p>Forest Spirits (Ghost Dogs)</p>
+                    <a class="grouped_elements hidden" title="closeup 1/3" rel="ghost_dogs" href="images/ghost_dogs/ghost_dogs_closeup_1.jpg">
+                        <img class="thumbnail" src="images/ghost_dogs/ghost_dogs_thumbnail.jpg" alt="" />
                     </a>
-                    <a class="grouped_elements hidden" title="closeup 2/3" rel="jun_room" href="images/jun_room/jun_room_closeup_2.png">
-                      <div class="thumbnail"><img src="images/jun_room/jun_room_closeup_2.png" alt="" /></div>
+                    <a class="grouped_elements hidden" title="closeup 2/3" rel="ghost_dogs" href="images/ghost_dogs/ghost_dogs_closeup_2.jpg">
+                      <img class="thumbnail" src="images/ghost_dogs/ghost_dogs_thumbnail.jpg" alt="" />
                     </a>
-                    <a class="grouped_elements hidden" title="closeup 3/3" rel="jun_room" href="images/jun_room/jun_room_closeup_3.png">
-                      <div class="thumbnail"><img src="images/jun_room/jun_room_closeup_3.png" alt="" /></div>
+                    <a class="grouped_elements hidden" title="closeup 3/3" rel="ghost_dogs" href="images/ghost_dogs/ghost_dogs_closeup_3.jpg">
+                      <img class="thumbnail" src="images/ghost_dogs/ghost_dogs_thumbnail.jpg" alt="" />
                     </a>
                 </div>
                 <div class="image_container">
-                    <a class="grouped_elements hide_large" title="kappa" rel="kappa" href="images/kappa/kappa.jpg">
-                        <div class="thumbnail"><img src="images/kappa/kappa.jpg" alt="" /></div>
+                    <a class="grouped_elements" title="Jun's room" rel="jun_room" href="images/jun_room/jun_room.jpg">
+                        <img class="thumbnail" src="images/jun_room/jun_room_thumbnail.jpg" alt="" />
+                    </a>
+                    <p>Jun's room</p>
+                    <a class="grouped_elements hidden" title="closeup 1/3" rel="jun_room" href="images/jun_room/jun_room_closeup_1.png">
+                        <img class="thumbnail" src="images/jun_room/jun_room_thumbnail.jpg" alt="" />
+                    </a>
+                    <a class="grouped_elements hidden" title="closeup 2/3" rel="jun_room" href="images/jun_room/jun_room_closeup_2.png">
+                      <img class="thumbnail" src="images/jun_room/jun_room_thumbnail.jpg" alt="" />
+                    </a>
+                    <a class="grouped_elements hidden" title="closeup 3/3" rel="jun_room" href="images/jun_room/jun_room_closeup_3.png">
+                      <img class="thumbnail" src="images/jun_room/jun_room_thumbnail.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="image_container">
+                    <a class="grouped_elements" title="Ghost dogs" rel="thief" href="images/thief/thief.jpg">
+                        <img class="thumbnail" src="images/thief/thief_thumbnail.jpg" alt="" />
+                    </a>
+                    <p>Thief Hands</p>
+                    <a class="grouped_elements hidden" title="closeup 1/3" rel="thief" href="images/thief/thief_closeup_1.jpg">
+                        <img class="thumbnail" src="images/thief/thief_thumbnail.jpg" alt="" />
+                    </a>
+                    <a class="grouped_elements hidden" title="closeup 2/3" rel="thief" href="images/thief/thief_closeup_2.jpg">
+                      <img class="thumbnail" src="images/thief/thief_thumbnail.jpg" alt="" />
+                    </a>
+                    <a class="grouped_elements hidden" title="closeup 3/3" rel="thief" href="images/thief/thief_closeup_3.jpg">
+                      <img class="thumbnail" src="images/thief/thief_thumbnail.jpg" alt="" />
+                    </a>
+                </div>
+                <div class="image_container">
+                    <a class="grouped_elements" title="kappa" rel="kappa" href="images/kappa/kappa.jpg">
+                        <img class="thumbnail" src="images/kappa/kappa.jpg" alt="" />
                     </a>
                     <p>Kappa</p>
                 </div>
                 <div class="image_container">
-                    <a class="grouped_elements hide_large" title="mermaid" rel="mermaid" href="images/mermaid/mermaid.jpg">
-                        <div class="thumbnail"><img src="images/mermaid/mermaid.jpg" alt="" /></div>
+                    <a class="grouped_elements" title="mermaid" rel="mermaid" href="images/mermaid/mermaid.jpg">
+                        <img class="thumbnail" src="images/mermaid/mermaid_thumbnail.jpg" alt="" />
                     </a>
                     <p>Mermaid</p>
                     <a class="grouped_elements hidden" title="closeup 1/2" rel="mermaid" href="images/mermaid/mermaid_closeup_1.jpg">
-                      <div class="thumbnail"><img src="images/mermaid/mermaid_closeup_1.jpg" alt="" /></div>
+                      <img class="thumbnail" src="images/mermaid/mermaid_thumbnail.jpg" alt="" />
                     </a>
                     <a class="grouped_elements hidden" title="closeup 2/2" rel="mermaid" href="images/mermaid/mermaid_closeup_2.jpg">
-                      <div class="thumbnail"><img src="images/mermaid/mermaid_closeup_2.jpg" alt="" /></div>
+                      <img class="thumbnail" src="images/mermaid/mermaid_thumbnail.jpg" alt="" />
                     </a>
                 </div>
                 <div class="image_container">
-                    <a class="grouped_elements hide_large" title="tea party" rel="tea_party" href="images/tea_party/tea_party.jpg">
-                        <div class="thumbnail"><img src="images/tea_party/tea_party.jpg" alt="" /></div>
+                    <a class="grouped_elements" title="tea party" rel="tea_party" href="images/tea_party/tea_party.jpg">
+                        <img class="thumbnail" src="images/tea_party/tea_party_thumbnail.jpg" alt="" />
                     </a>
                     <p>Tea party</p>
                     <a class="grouped_elements hidden" title="closeup 1/3" rel="tea_party" href="images/tea_party/tea_party_closeup_1.jpg">
-                      <div class="thumbnail"><img src="images/tea_party/tea_party_closeup_1.jpg" alt="" /></div>
+                      <img class="thumbnail" src="images/tea_party/tea_party_thumbnail.jpg" alt="" />
                     </a>
                     <a class="grouped_elements hidden" title="closeup 2/3" rel="tea_party" href="images/tea_party/tea_party_closeup_2.jpg">
-                      <div class="thumbnail"><img src="images/tea_party/tea_party_closeup_2.jpg" alt="" /></div>
+                      <img class="thumbnail" src="images/tea_party/tea_party_thumbnail.jpg" alt="" />
                     </a>
                     <a class="grouped_elements hidden" title="closeup 3/3" rel="tea_party" href="images/tea_party/tea_party_closeup_3.jpg">
-                      <div class="thumbnail"><img src="images/tea_party/tea_party_closeup_3.jpg" alt="" /></div>
+                      <img class="thumbnail" src="images/tea_party/tea_party_thumbnail.jpg" alt="" />
                     </a>
                 </div>
+                    <div class="image_container">
+                    <a class="grouped_elements" title="2 headed dog" rel="2_headed" href="images/2_headed/2_headed.gif">
+                        <img class="thumbnail" src="images/2_headed/2_headed_thumbnail.jpg" alt="" />
+                    </a>
+                    <p>2 headed dog</p>
+                </div>
                 <div class="image_container">
-                    <a class="grouped_elements hide_large" title="compass" rel="gallery" href="images/sketches/compass.jpg">
-                        <div class="thumbnail"><img src="images/sketches/compass.jpg" alt="" /></div>
+                    <a class="grouped_elements" title="compass" rel="gallery" href="images/sketches/compass.jpg">
+                        <img class="thumbnail" src="images/sketches/compass.jpg" alt="" />
                     </a>
                     <p>Sketchbook</p>
                     <a class="grouped_elements hidden" title="cerberus" rel="gallery" href="images/sketches/doggy.jpg">
-                        <div class="thumbnail"><img src="images/sketches/doggy.jpg" alt="" /></div>
+                        <img class="thumbnail" src="images/sketches/compass.jpg" alt="" />
                     </a>
                     <a class="grouped_elements hidden" title="sketches" rel="gallery" href="images/sketches/sailor_moon.png">
-                        <div class="thumbnail"><img src="images/sketches/sailor_moon.png" alt="" /></div>
+                        <img class="thumbnail" src="images/sketches/compass.png" alt="" />
+                    </a>
+                    <a class="grouped_elements hidden" title="sketches" rel="gallery" href="images/sketches/summer_2013.jpg">
+                        <img class="thumbnail" src="images/sketches/compass.png" alt="" />
                     </a>
                 </div>
             </div>
