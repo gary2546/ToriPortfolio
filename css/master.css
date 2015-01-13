@@ -70,9 +70,11 @@ li {
     opacity: 0.75;
 }
 
-.nav_item:hover {
+.nav_item:hover,
+.social img:hover {
     opacity: 0.5;
 }
+
 
 .image_container {
     width: 250px;
@@ -93,4 +95,12 @@ li {
 .thumbnail {
     width: 250px;
     height: 250px;
+}
+
+.nav_item a {
+    color: rgb(145,196,187);
+}
+
+a.current_page {
+    color: rgb(202,70,66);
 }
