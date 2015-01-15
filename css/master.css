@@ -34,7 +34,7 @@ p {
 }
 
 .container {
-    width: 998px;
+    width: 1058px;
     margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ p {
 .image_container {
     width: 300px;
     display: inline-block;
-    margin: 0 15px 20px 15px;
+    margin: 0 25px 25px 25px;
     text-align: center;
 }
 
@@ -101,6 +101,23 @@ p {
 .gallery,
 .info {
     clear: both;
+}
+
+.info p {
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.info a:hover {
+    opacity: 0.3;
+}
+
+.contact_info p {
+    margin: 5px 0;
+}
+
+.contact_links {
+    margin-bottom: 60px;
 }
 
 .thumbnail {
@@ -114,4 +131,13 @@ p {
 
 a.current_page {
     color: rgb(202,70,66);
+}
+
+.home {
+    text-align: center;
+}
+
+.home_image {
+    width: 900px;
+    height: 503px;
 }
