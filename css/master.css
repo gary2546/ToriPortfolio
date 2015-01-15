@@ -34,7 +34,7 @@ p {
 }
 
 .container {
-    width: 848px;
+    width: 998px;
     margin: 0 auto;
 }
 
@@ -88,9 +88,9 @@ p {
 
 
 .image_container {
-    width: 250px;
+    width: 300px;
     display: inline-block;
-    margin: 0 15px 30px 15px;
+    margin: 0 15px 20px 15px;
     text-align: center;
 }
 
@@ -104,8 +104,8 @@ p {
 }
 
 .thumbnail {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 
 .nav_item a {
