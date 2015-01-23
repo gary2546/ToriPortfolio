@@ -35,7 +35,7 @@ p {
 
 .container {
     width: 1058px;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 .header {
@@ -105,7 +105,7 @@ p {
 
 .info p {
     opacity: 0.6;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .info a:hover {
@@ -140,4 +140,9 @@ a.current_page {
 .home_image {
     width: 1058px;
     height: 592px;
+}
+
+.about_image {
+    width: 360px;
+    height: 480px;
 }
