@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ToriPortfolio">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Victoria Eng Gallery</title>
+
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
+</head>
+
+<body ng-controller="controller">
+    <div class="col-md-10 col-md-offset-1">
+
+        <div class="header">
+            <ng-include src="'header.html'"></ng-include>
+        </div>
+        <hr>
+
+        <div ng-view></div>
+
+        <div class="footer">
+            <ng-include src="'footer.html'"></ng-include>
+        </div>
+
+        <!-- JS libraries -->
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+        <script src="https://use.fontawesome.com/28a6688237.js"></script>
+
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>

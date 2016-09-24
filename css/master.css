@@ -5,87 +5,14 @@ body {
     font-family: 'Roboto';
 }
 
-h1 {
-    margin: 15px 0;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-li {
-    display: inline-block;
-}
-
-hr {
-    clear: both;
-    position: relative;
-    top: 40px;
-    opacity: 0.5;
-}
-
 p {
     font-size: 14px;
 }
 
-.hidden {
-    display: none;
-}
-
-.container {
-    width: 1058px;
-    margin: 0 auto 100px auto;
-}
-
-.header {
-    text-transform: uppercase;
-    margin: 40px auto 40px auto;
-    padding-bottom: 40px;
-}
-
-.nav {
-    list-style: none;
-    padding: 0;
-    display: inline-block;
-    width: 70%;
-    text-align: right;
-    float: right;
-}
-
-.nav_item {
-    font-size: 18px;
-    margin: 0 10px 5px 10px;
-}
-
-.logo {
-    display: inline-block;
-    width: 30%;
-    text-align: left;
-    float: left;
-}
-
-.social {
-    padding-left: 10px;
-    position: relative;
-    top: 3px;
-}
-
-.icon {
-    width: 18px;
-    height: 18px;
-    vertical-align: bottom;
-}
 
 .thumbnail:hover {
     opacity: 0.75;
 }
-
-.nav_item:hover,
-.social img:hover {
-    opacity: 0.5;
-}
-
 
 .image_container {
     width: 300px;
@@ -96,20 +23,6 @@ p {
 
 .image_container p {
     text-align: left;
-}
-
-.gallery,
-.info {
-    clear: both;
-}
-
-.info p {
-    opacity: 0.6;
-    font-size: 20px;
-}
-
-.info a:hover {
-    opacity: 0.3;
 }
 
 .contact_info p {
@@ -125,24 +38,49 @@ p {
     height: 300px;
 }
 
-.nav_item a {
+.about_image {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    clear: both;
+}
+
+.header {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav a {
     color: rgb(145,196,187);
+}
+
+.navbar-brand {
+    font-size: 32px;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.icon-bar {
+    background-color: #888;
+}
+
+a, .navbar-brand:focus {
+    color: black;
+}
+
+.nav li a:focus {
+    background-color: transparent;
 }
 
 a.current_page {
     color: rgb(202,70,66);
 }
 
-.home {
-    text-align: center;
-}
-
 .home_image {
-    width: 1058px;
-    height: 592px;
-}
-
-.about_image {
-    width: 360px;
-    height: 480px;
+    width: 100%;
 }
