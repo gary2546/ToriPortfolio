@@ -35,6 +35,10 @@
             }
         });
 
+        $('.nav a, .navbar-brand').on('click', function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+
         if($(".pswp").length) {
             var pswpElement = $('.pswp')[0];
 
