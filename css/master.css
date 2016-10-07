@@ -3,19 +3,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    font-size: 16px;
 }
-
-p {
-    font-size: 14px;
-}
-
 
 .thumbnail:hover {
     opacity: 0.75;
 }
 
 .image_container {
-    width: 300px;
+    width: 290px;
     display: inline-block;
     margin: 0 25px 25px 25px;
     text-align: center;
@@ -34,17 +30,23 @@ p {
 }
 
 .thumbnail {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+}
+
+.about_image_container {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .about_image {
-    width: 100%;
+    max-width: 250px;
 }
 
 .footer {
     width: 100%;
     clear: both;
+    text-align: center;
+    font-size: 80%;
 }
 
 .header {
@@ -58,11 +60,11 @@ p {
 }
 
 .navbar-brand {
-    font-size: 32px;
+    font-size: 220%;
 }
 
 .navbar-nav {
-    font-size: 18px;
+    font-size: 120%;
 }
 
 .icon-bar {
@@ -83,4 +85,31 @@ a.current_page {
 
 .home_image {
     width: 100%;
+}
+
+.social a {
+    color: rgb(145,196,187);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social a:hover {
+    color: #888888;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    display: inline-block;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.pswp__caption__center {
+    text-align: center;
 }
