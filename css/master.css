@@ -122,4 +122,12 @@ hr {
     .image_container {
         width: 80%;
     }
+
+    hr {
+        margin-top: 0;
+    }
+
+    .header {
+        margin-top: 25px;
+    }
 }

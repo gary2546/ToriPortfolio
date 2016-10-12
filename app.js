@@ -45,6 +45,30 @@
             // build items array
             var items = [
                 {
+                    src: 'images/resurface/resurface.jpg',
+                    title: 'Resurface',
+                    w: 2700,
+                    h: 3876
+                },
+                {
+                    src: 'images/cityscape/cityscape.jpg',
+                    title: 'Cityscape',
+                    w: 3600,
+                    h: 1980
+                },
+                {
+                    src: 'images/agency/agency.jpg',
+                    title: 'Agency',
+                    w: 3850,
+                    h: 2382
+                },
+                {
+                    src: 'images/interior/interior_room.jpg',
+                    title: 'Interior Futuristic',
+                    w: 5600,
+                    h: 3500
+                },
+                {
                     src: 'images/ghost_dogs/ghost_dogs.jpg',
                     title: 'Forest Spirits',
                     w: 648,
@@ -88,27 +112,51 @@
                 },
                 {
                     src: 'images/sketches/compass.jpg',
-                    title: 'Sketch 1/4',
+                    title: 'Sketch 1/8',
                     w: 600,
                     h: 600
                 },
                 {
                     src: 'images/sketches/doggy.jpg',
-                    title: 'Sketch 2/4',
+                    title: 'Sketch 2/8',
                     w: 600,
                     h: 480
                 },
                 {
                     src: 'images/sketches/sailor_moon.png',
-                    title: 'Sketch 3/4',
+                    title: 'Sketch 3/8',
                     w: 600,
                     h: 600
                 },
                 {
                     src: 'images/sketches/summer_2013.jpg',
-                    title: 'Sketch 4/4',
+                    title: 'Sketch 4/8',
                     w: 640,
                     h: 640
+                },
+                {
+                    src: 'images/sketches/helmets.jpg',
+                    title: 'Sketch 5/8',
+                    w: 4000,
+                    h: 3121
+                },
+                {
+                    src: 'images/sketches/city_sketch.jpg',
+                    title: 'Sketch 6/8',
+                    w: 3300,
+                    h: 1816
+                },
+                {
+                    src: 'images/sketches/agency_sketch.jpg',
+                    title: 'Sketch 7/8',
+                    w: 3850,
+                    h: 2382
+                },
+                {
+                    src: 'images/sketches/interior_sketch.jpg',
+                    title: 'Sketch 8/8',
+                    w: 3300,
+                    h: 2063
                 }
 
             ];
