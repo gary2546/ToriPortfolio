@@ -45,6 +45,30 @@
             // build items array
             var items = [
                 {
+                    src: 'images/siamese_familiar/siamese_familiar.jpg',
+                    title: 'Corner of the Woods',
+                    w: 900,
+                    h: 994
+                },
+                {
+                    src: 'images/rooster_year/rooster_year.jpg',
+                    title: 'Year of the Rooster',
+                    w: 2175,
+                    h: 2400
+                },
+                {
+                    src: 'images/widowmaker/widowmaker.jpg',
+                    title: 'Widowmaker',
+                    w: 1376,
+                    h: 1800
+                },
+                {
+                    src: 'images/flower_witch/flower_witch.jpg',
+                    title: 'In Bloom - Flower Witch',
+                    w: 1086,
+                    h: 1500
+                },
+                {
                     src: 'images/resurface/resurface.jpg',
                     title: 'Resurface',
                     w: 2700,
