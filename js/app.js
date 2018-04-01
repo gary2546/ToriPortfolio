@@ -45,6 +45,54 @@
             // build items array
             var items = [
                 {
+                    src: 'images/midnight_sphynx/midnight_sphynx.jpg',
+                    title: 'Midnight Sphynx',
+                    w: 1979,
+                    h: 2700
+                },
+                {
+                    src: 'images/mead_moon/mead_moon.jpg',
+                    title: 'Mead Moon',
+                    w: 1908,
+                    h: 3000
+                },
+                {
+                    src: 'images/defensive/defensive.jpg',
+                    title: 'Defensive',
+                    w: 2035,
+                    h: 2960
+                },
+                {
+                    src: 'images/mermay_2/mermay_2.jpg',
+                    title: 'Encircle',
+                    w: 2225,
+                    h: 3104
+                },
+                {
+                    src: 'images/mermay_1/mermay_1.jpg',
+                    title: 'Mermaid Warrior',
+                    w: 1667,
+                    h: 2400
+                },
+                {
+                    src: 'images/kung_fu_kenny/kung_fu_kenny.jpg',
+                    title: 'Kung Fu Kenny',
+                    w: 1811,
+                    h: 2700
+                },
+                {
+                    src: 'images/pursuit/pursuit.jpg',
+                    title: 'Pursuit',
+                    w: 1705,
+                    h: 2327
+                },
+                {
+                    src: 'images/consumed/consumed.jpg',
+                    title: 'Consumed',
+                    w: 1800,
+                    h: 2283
+                },
+                {
                     src: 'images/siamese_familiar/siamese_familiar.jpg',
                     title: 'Corner of the Woods',
                     w: 900,
